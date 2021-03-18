@@ -25,7 +25,7 @@
         "symfony/notifier": "*",
         "symfony/orm-pack": "*",
         "symfony/process": "*",
-        "symfony/security-bundle": "*",
+        "symfony/security-bundle": "5.2.*",
         "symfony/serializer-pack": "*",
         "symfony/string": "*",
         "symfony/translation": "*",
@@ -35,10 +35,13 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
-        "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*"
+        "symfony/stopwatch": "^5.2",
+        "symfony/test-pack": "*",
+        "symfony/twig-bundle": "^5.2",
+        "symfony/web-profiler-bundle": "^5.2"
     },
     "config": {
         "optimize-autoloader": true,
